@@ -38,4 +38,4 @@ _Netflix- CEO of Curation_
 
 ### Conclusion
 
-Curation Algorithms come with problems. However, we must embrace the fact that technology gets better every passing minute, and the next 4-5 years would likely bring about substantial and positive change in this sector. Another key takeaway is that the more the data, the better the algorithm and, thus, the better the experience. But with more data, our invaluable information is exposed to multiple risks. Therefore, companies should be ready to undertake this responsibility as well. And most importantly, we, the people, need to be aware.
+Curation Algorithms come with problems. However, we must embrace the fact that technology gets better every passing minute, and the next 4-5 years would likely bring about substantial and positive change in this sector. Another key takeaway is that the more the data, the better the algorithm and, in return, a much better experience. But with more data, our invaluable information is exposed to multiple risks. Therefore, companies should be ready to undertake this responsibility as well. And most importantly, we, the people, need to be aware.
