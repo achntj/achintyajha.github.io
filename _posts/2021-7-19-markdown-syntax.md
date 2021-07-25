@@ -14,7 +14,7 @@ And code snippets like _this_
 
 ```python
     if True:
-        print("Hello World)
+        print("Hello World")
     # comments work too
 ```
 
