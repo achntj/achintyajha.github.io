@@ -2,7 +2,7 @@
 layout: post
 title: Markdown Testing
 description: Markdown is the go to tool for static sites, especially blogs, where its syntax, which comes naturally, is a delight for beginners. In this blog post, I check out some of the most commonly used features of markdown.
-oneline: Everyone new to markdown does this
+oneline: Yeah, I was supposed to delete this
 location: New Delhi, India
 ---
 
