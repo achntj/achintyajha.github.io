@@ -273,7 +273,7 @@ nav {
   float: right;
   overflow: hidden;
   position: relative;
-  margin: 10px 0px 10px 15px;
+  margin: 10px 0px 10px 0px;
 }
 
 @media (max-width: 300px) {
@@ -361,7 +361,7 @@ nav {
 
 .post {
   padding-bottom: 1em;
-  border-bottom: 3px solid $lightGray;
+  border-bottom: 2px solid $lightGray;
   cursor: pointer;
 }
 
@@ -382,7 +382,7 @@ nav {
 
 .span_header {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .entry img {
