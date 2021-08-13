@@ -13,7 +13,7 @@ permalink: /projects/
 
 **[SentimentAI](https://sentimate.herokuapp.com/)** A Natural Language Processing and Machine Learning based model that is capable of using text for identifying depression.
 
-**[StuClan](https://stu-clan.web.app)** A web based micro-blogging app primarily designed for students, with minimum distractions and mostly educational content.
+**[StuClan](https://stuclan.achintyajha.in/)** A web based micro-blogging app primarily designed for students, with minimum distractions and mostly educational content.
 
 <!-- Format
 
