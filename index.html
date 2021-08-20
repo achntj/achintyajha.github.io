@@ -3,7 +3,7 @@ layout: default
 ---
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="/js/my.js"></script>
+<script src="{{ site.baseurl }}/my.js"></script>
 </head>
 
 <div class="entry">
@@ -38,12 +38,25 @@ layout: default
   <p>This is the place where you will find me talking about what I have been making, writing, and thinking over the week. 
   Consider signing up for my newsletter to hear about programming, data science and some of my other old school interests!</p>
   <div class="newsletter_contents">
-    <form autocomplete="off" name="newsletter" action="https://buttondown.email/api/emails/embed-subscribe/achintyajha" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/achintyajha', 'popupwindow')">
-  <label class="email" for="bd-email">Email</label>
-  <input type="email" required class="email_input" placeholder="me@example.com" name="email" id="bd-email" />
-  <input type="hidden" value="1" name="embed" />
-  <button class="button" type="submit">Join</button>
-</form>
+    <!-- <form autocomplete="off" name="newsletter" action="https://buttondown.email/api/emails/embed-subscribe/achintyajha" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/achintyajha', 'popupwindow')">
+      <label class="email" for="bd-email">Email</label>
+      <input type="email" required class="email_input" placeholder="me@example.com" name="email" id="bd-email" />
+      <input type="hidden" value="1" name="embed" />
+      <button class="button" type="submit">Join</button>
+    </form> -->
+   
+    <div id="mc_embed_signup">
+    <form action="https://github.us6.list-manage.com/subscribe/post?u=17a470b4b0b42c5f91f52991b&amp;id=ba76bd2ad4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div id="mc_embed_signup_scroll">
+      <label for="mce-EMAIL">Subscribe</label>
+      <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_17a470b4b0b42c5f91f52991b_ba76bd2ad4" tabindex="-1" value=""></div>
+        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+        </div>
+    </form>
+    </div>
+
   </div>
 </div>
 
