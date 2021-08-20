@@ -88,6 +88,11 @@ p a {
   white-space: nowrap;
 }
 
+// Royal Links
+p > a{
+  color: $royal;
+}
+
 ul,
 ol {
   margin: 15px 0;
@@ -381,6 +386,7 @@ nav {
 }
 
 .span_header {
+  color: $darkerGray;
   font-size: 24px;
   font-weight: 400;
 }
