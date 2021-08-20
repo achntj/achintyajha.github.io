@@ -23,7 +23,7 @@ permalink: /posts/
   {% if currentdate != date %} {% unless forloop.first %}{% endunless %}
   <h2 id="y{{post.date | date: '%Y'}}">{{ currentdate }}</h2>
     {% assign date = currentdate %} {% endif %}
-      <p>
+      <p class="post-list">
         <b>
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </b>
