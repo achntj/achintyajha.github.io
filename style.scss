@@ -18,9 +18,9 @@ html {
 }
 
 body {
-  background: $white;
+  background: var(--color-bg);
   font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  color: var(--color-text);
 }
 
 h1,
@@ -30,7 +30,7 @@ h4,
 h5,
 h6 {
   font-family: $helvetica;
-  color: $darkerGray;
+  color: var(--color-text-secondary);
   font-weight: bold;
 
   line-height: 1.7;
@@ -68,11 +68,11 @@ p {
 }
 
 a {
-  color: $darkerGray;
+  color: var(--color-text-secondary);
   text-decoration: none;
   cursor: pointer;
   padding: 0 3px;
-  background-color: $lightGray;
+  background-color: var(--color-highlight);
   border-radius: 3px;
   &:hover,
   &:active {
@@ -80,7 +80,7 @@ a {
     transition-duration: 0.5s;
     text-decoration-thickness: 2px;
     text-underline-offset: 2px;
-    text-decoration-color: #333;
+    text-decoration-color: var(--color-text);
   }
 }
 
@@ -90,7 +90,7 @@ p a {
 
 // Royal Links
 p > a{
-  color: $royal;
+  color: var(--color-accent);
 }
 
 ul,
@@ -140,12 +140,12 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
-  background: $lightGray;
+  color: (var(--color-selection));
+  background: var(--color-highlight);
 }
 ::selection {
-  color: $black;
-  background: $lightGray;
+  color: (var(--color-selection));
+  background: var(--color-highlight);
 }
 
 // Nicolas Gallagher's micro clearfix hack
@@ -167,7 +167,7 @@ img {
 .wrapper-masthead {
   border-top: 3px solid $purple;
   margin-bottom: 35px;
-  border-bottom: 2px solid $lightGray;
+  border-bottom: 2px solid var(--color-highlight);
 }
 
 .masthead {
@@ -213,7 +213,7 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: var(--color-text);
   cursor: pointer;
   font-family: $helvetica;
   font-size: 28px;
@@ -223,7 +223,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: var(--color-tertiary);
   font-size: 16px;
 
   @include mobile {
@@ -246,7 +246,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: var(--color-text);
     text-align: right;
     font-weight: 600;
     letter-spacing: 1px;
@@ -305,12 +305,12 @@ nav {
 
 .hero {
   padding-bottom: 20px;
-  border-bottom: 3px solid $lightGray;
+  border-bottom: 3px solid var(--color-highlight);
 }
 
 .newsletter {
-  border-bottom: 2px solid $lightGray;
-  border-top: 2px solid $lightGray;
+  border-bottom: 2px solid var(--color-highlight);
+  border-top: 2px solid var(--color-highlight);
 }
 
 .newsletter_contents {
@@ -367,7 +367,7 @@ nav {
 
 .post {
   padding-bottom: 1em;
-  border-bottom: 2px solid $lightGray;
+  border-bottom: 2px solid var(--color-highlight);
   cursor: pointer;
 }
 
@@ -377,7 +377,7 @@ nav {
 
   &:hover,
   &:active {
-    color: $darkerGray;
+    color: var(--color-text-secondary);
     text-decoration: none;
   }
 }
@@ -391,7 +391,7 @@ nav {
 }
 
 .span_header {
-  color: $darkerGray;
+  color: var(--color-text-secondary);
   font-size: 24px;
   font-weight: 400;
 }
@@ -424,7 +424,7 @@ blockquote {
 }
 
 .post-description {
-  color: $gray;
+  color: var(--color-highlight);
 }
 
 // .wrapper-footer {
@@ -443,7 +443,7 @@ footer {
 }
 
 .footer_container {
-  border-top: 3px solid $lightGray;
+  border-top: 3px solid var(--color-highlight);
   padding: 20px 10px;
   color: var(--color-accent)
 }
@@ -460,19 +460,25 @@ footer {
   text-align: right;
 }
 
+/*********************/
+/* THEMING */
+/*********************/
+
 .theme-light {
-  --color-primary: white;
-  --color-secondary: black;
-  --font-color: white;
-  --color-accent: #2196f3;
-  --color-text: #444;
+  --color-bg: $white;
+  --color-text: $darkGray;
+  --color-text-secondary: $darkerGray;
+  --color-tertiary: $gray;
+  --color-accent: $royal;
+  --color-selection: $black;
+  --color-highlight: $lightGray;
 }
 .theme-dark {
-  --color-primary: black;
-  --color-secondary: white;
-  --font-color: black;
-  --color-accent: #709680;
-  --color-text: #bbb;
+  --color-bg: $black;
+  --color-text: $white;
+  --color-secondary: $darkerGray;
+  --coloe-tertiary: $darkGray;
+  --color-accent: $royal;
 }
 
 .container-new {
@@ -482,7 +488,7 @@ footer {
   align-items: center;
 }
 
-.container button {
+.container-new button {
   color: var(--font-color);
   background: var(--color-primary);
   padding: 10px 20px;
