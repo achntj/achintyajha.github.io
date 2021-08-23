@@ -9,29 +9,6 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
-/*********************/
-/* THEMING */
-/*********************/
-
-.theme-light {
-  --color-bg: $white;
-  --color-text: $darkGray;
-  --color-text-secondary: $darkerGray;
-  --color-tertiary: $gray;
-  --color-accent: $royal;
-  --color-selection: $black;
-  --color-highlight: $lightGray;
-}
-.theme-dark {
-  --color-bg: $black;
-  --color-text: $white;
-  --color-text-secondary: $darkerGray;
-  --color-tertiary: $gray;
-  --color-accent: $royal;
-  --color-selection: $black;
-  --color-highlight: $lightGray;
-}
-
 .container-new {
   width: 100%;
   flex-direction: column;
