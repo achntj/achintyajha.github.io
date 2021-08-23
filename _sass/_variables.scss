@@ -28,15 +28,17 @@ $white: #fff;
   --color-accent: #5e03fc;
   --color-selection: #000;
   --color-highlight: #eee;
+  --color-header: #333;
 }
 .theme-dark {
   --color-bg: #272b38;
   --color-text: #bbb;
-  --color-text-secondary: #white;
+  --color-text-secondary: white;
   --color-tertiary: #666;
   --color-accent: #5e03fc;
   --color-selection: #000;
   --color-highlight: transparent;
+  --color-header: #e8e4e0;
 }
 
 // Font stacks
