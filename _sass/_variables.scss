@@ -49,3 +49,9 @@ $helvetica: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     @content;
   }
 }
+
+@mixin small-mobile {
+  @media screen and (max-width: 340px) {
+    @content;
+  }
+}
