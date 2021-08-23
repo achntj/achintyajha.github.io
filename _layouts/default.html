@@ -27,6 +27,8 @@
       href="{{ site.baseurl }}/feed.xml"
     />
 
+    <script src="{{ site.baseurl }}/script.js"> defer></script>
+
     {% seo %}
     {% include analytics.html %}
   </head>
@@ -53,6 +55,12 @@
             <a href="{{ site.baseurl }}/about">About</a>
             <a href="{{ site.baseurl }}/projects">Projects</a>
             <a style="color: #666" href="{{ site.baseurl }}/feed.xml">RSS</a>
+            <span class="container">
+              <label id="switch" class="switch">
+                <input type="checkbox" onchange="toggleTheme()" id="slider" />
+                <span class="slider round"></span>
+              </label>
+          </span>
           </nav>
         </header>
       </div>
