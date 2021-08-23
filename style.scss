@@ -242,6 +242,9 @@ nav {
     margin-top: 9px;
     display: block;
     font-size: 16px;
+    .rss {
+        display: none;
+      }
   }
 
   a {
@@ -258,9 +261,6 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      .rss {
-        display: none;
-      }
     }
   }
 }
