@@ -258,6 +258,9 @@ nav {
 
     @include mobile {
       margin: 0 10px;
+      .rss {
+        display: none;
+      }
     }
   }
 }
@@ -424,7 +427,7 @@ blockquote {
 }
 
 .post-description {
-  color: var(--color-highlight);
+  color: var(--color-tertiary);
 }
 
 // .wrapper-footer {
@@ -465,6 +468,9 @@ footer {
 /*********************/
 
 .container-new {
+  position: relative;
+  top: -5px;
+  margin-left: 10px;
   width: 100%;
   flex-direction: column;
   justify-content: center;
