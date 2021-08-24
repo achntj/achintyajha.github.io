@@ -517,7 +517,7 @@ footer {
   right: 0;
   bottom: 0;
   /* background-color: #ccc; */
-  background-color: var(--color-accent);
+  background-color: var(--color-accent-secondary);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -542,11 +542,11 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: var(--color-accent);
+  background-color: var(--color-accent-secondary);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px var(--color-accent);
+  box-shadow: 0 0 1px var(--color-accent-secondary);
 }
 
 input:checked + .slider:before {
