@@ -30,8 +30,7 @@ layout: default
 
 <div class="posts">
   <h1>Posts</h1>
-  <p>Lately, I have also been writing about tech on my blog.</p>
-  <p>My most recent posts are listed here, for all posts check out- <a href="{{ site.baseurl }}/posts">Posts</a></p>
+  <p>Lately, I have also been writing about tech on my blog. My most recent posts are listed here, for all posts check out- <a href="{{ site.baseurl }}/posts">Posts</a></p>
   {% for post in site.posts limit:5%}
   <article class="post">
     <a href="{{ site.baseurl }}{{ post.url }}">

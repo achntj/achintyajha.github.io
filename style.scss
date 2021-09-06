@@ -412,6 +412,10 @@ img + em {
   color: $gray;
 }
 
+.posts {
+  border-top: 2px solid var(--color-highlight);
+}
+
 .posts > .post:last-child {
   padding-bottom: 1em;
   border-bottom: none;
