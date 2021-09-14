@@ -18,6 +18,9 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background: var(--color-bg);
   font: 18px/1.4 $helvetica;
   color: var(--color-text);
@@ -274,6 +277,7 @@ nav {
   max-width: 650px;
   padding: 0 15px;
   width: 100%;
+  flex-grow: 1;
 }
 
 .img_div {
