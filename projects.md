@@ -5,11 +5,10 @@ description: A list of projects made by me either as parts of research projects,
 permalink: /projects/
 ---
 
-  <p>
-    Of the many projects I have created, here are a few, which could make it
-    till here. For the others, check them out at
-    <a href="https://github.com/achintyajha">Github</a>
-  </p>
+
+Of the many projects I have created, here are a few, which could make it
+till here. For the others, check them out at
+[Github](https://github.com/achintyajha)
 
 **[SentimentAI](https://sentimate.herokuapp.com/)** A Natural Language Processing and Machine Learning based model that is capable of using text for identifying depression.
 
