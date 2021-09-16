@@ -6,8 +6,8 @@ oneline: It's easy ahaha
 location: New Delhi, India
 ---
 
-![]({{ site.baseurl }}/images/posts/curation2.png)
-_Typical Amazon Recommendations_
+![]({{ site.baseurl }}/images/posts/dracula.png)
+_Dracula Theme on IDLE!_
 
 ## Step 1: Find your ~/.idlerc file
 
