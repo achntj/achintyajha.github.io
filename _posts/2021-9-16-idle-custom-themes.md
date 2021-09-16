@@ -15,7 +15,7 @@ Based on what I found on *StackOverflow*, it's pretty easy to find it on your ho
 
 Open the terminal in your root directory then type-
 
-```shell
+```console
     cd ~/.idlerc
     touch config-highlight.cfg
     open .
@@ -25,7 +25,7 @@ Open the terminal in your root directory then type-
 
 This will open the ~/.idlerc folder with the custom theme config file. Now open this file from finder or use 
 
-```shell
+```console
     open -a TextEdit config-highlight.cfg
 ```
 
