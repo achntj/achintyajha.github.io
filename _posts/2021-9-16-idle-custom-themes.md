@@ -25,10 +25,10 @@ Open the terminal in your root directory then type-
 
 This will open the ~/.idlerc folder with the custom theme config file. Now open this file from finder or use 
 
-```console
+```bash
     $ open -a TextEdit config-highlight.cfg
 ```
 
 ## Step 3: Update the theme on IDLE
 
-Now paste the theme code snippet into this file and save it. It's simpler from here on. Open IDLE Preferences, and go to highlights and choose the custom theme. Dead Simple Right? I never knew it untill today!
+Now paste the theme code snippet into this file and save it. It's simpler from here on. Open IDLE Preferences, and go to highlights and choose the custom theme. Dead simple right? I never knew it untill today!
