@@ -15,10 +15,10 @@ Based on what I found on *StackOverflow*, it's pretty easy to find it on your ho
 
 Open the terminal in your root directory then type-
 
-```bash
-    cd ~/.idlerc
-    touch config-highlight.cfg
-    open .
+```shell
+    $ cd ~/.idlerc
+    $ touch config-highlight.cfg
+    $ open .
 ```
 
 ## Step 2: Edit the *config-highlight.cfg* file
@@ -26,7 +26,7 @@ Open the terminal in your root directory then type-
 This will open the ~/.idlerc folder with the custom theme config file. Now open this file from finder or use 
 
 ```console
-    open -a TextEdit config-highlight.cfg
+    $ open -a TextEdit config-highlight.cfg
 ```
 
 ## Step 3: Update the theme on IDLE
