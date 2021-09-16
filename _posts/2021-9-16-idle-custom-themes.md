@@ -15,7 +15,7 @@ Based on what I found on *StackOverflow*, it's pretty easy to find it on your ho
 
 Open the terminal in your root directory then type-
 
-```console
+```bash
     cd ~/.idlerc
     touch config-highlight.cfg
     open .
