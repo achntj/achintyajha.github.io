@@ -11,7 +11,7 @@ _Dracula Theme on IDLE!_
 
 ## Step 1: Find your ~/.idlerc file
 
-Based on what I found on *StackOverflow*, it's pretty easy to find it on your home directory. Findind it on Mac is a bit different(That's what I will talk about next).
+Based on what I found on *StackOverflow*, it's pretty easy to find it on your home directory. Finding it on Mac is a bit different(That's what I will talk about next).
 
 Open the terminal in your root directory then type-
 
@@ -31,4 +31,4 @@ This will open the ~/.idlerc folder with the custom theme config file. Now open 
 
 ## Step 3: Update the theme on IDLE
 
-Now paste the theme code snippet into this file and save it. It's simpler from here on. Open IDLE Preferences, and go to highlights and choose the custom theme. Dead simple right? I never knew it untill today!
+Now paste the theme code snippet into this file and save it. It's simpler from here on. Open IDLE Preferences, go to highlights, and choose the custom theme. Dead simple right? I never knew it untill today!
