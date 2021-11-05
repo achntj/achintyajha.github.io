@@ -12,7 +12,7 @@ till here. For the others, check them out at
 
 **[SentimentAI](https://sentimate.ml/)** A Natural Language Processing and Machine Learning based model that is capable of using text for identifying depression.
 
-**[StuClan](https://stuclan.ml/)** A web based micro-blogging app primarily designed for students, with minimum distractions and mostly educational content.
+**[StuClan](https://stuclan.ml/)** A web based micro-blogging app primarily designed helping out people solve problems relating to mental health and educational stress.
 
 <!-- Format
 
