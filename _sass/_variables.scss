@@ -23,26 +23,29 @@ $white: #fff;
 .theme-light {
   --color-bg: #fff;
   --color-text: #333;
-  --color-text-secondary: #222;
-  --color-tertiary: #666;
-  // --color-accent: #5e03fc;
-  --color-accent: #2046ee;
-  --color-accent-secondary: #5e03fc;
-  --color-selection: #000;
+  --color-eminent: #222;
+  --color-accent: #5e03fc;
+  --color-suppresed: #666;
+  --color-link: #2046ee;
   --color-highlight: #eee;
-  --color-code: #282a36;
+  --color-nav: #eee;
+  --color-hack: #42840c;
 }
 .theme-dark {
   // --color-bg: #272b38;
-  --color-bg: #1f2126;
+  // --color-bg: #1e1e21;
+  --color-bg: #131415;
   --color-text: #bbb;
-  --color-text-secondary: #e8e4e0;
-  --color-tertiary: #828282;
-  --color-accent: #ca6d56;
-  --color-accent-secondary: #ca6d56;
-  --color-selection: #ca6d56;
-  --color-highlight: #333;
-  --color-code: #efefef;
+  --color-eminent: #e8e4e0;
+  // --color-accent: #ca6d56;
+  // --color-accent: #32a83e;
+  --color-accent: #6ec92c;
+  --color-suppresed: #828282;
+  --color-link: #709680;
+  // --color-highlight: #333;
+  --color-highlight: #272b38;
+  --color-nav: #1e1e21;
+  --color-hack: #f3a433;
 }
 
 // Font stacks
