@@ -92,11 +92,11 @@ p a {
 }
 
 // Royal Links
-p > a{
+p > a {
   color: var(--color-accent);
 }
 
-span > a{
+span > a {
   color: var(--color-accent);
 }
 
@@ -172,7 +172,7 @@ img {
 /*********************/
 
 .wrapper-masthead {
-  border-top: 3px solid $purple;
+  border-top: 3px solid var(--color-accent);
   margin-bottom: 35px;
   border-bottom: 2px solid var(--color-highlight);
 }
@@ -250,8 +250,8 @@ nav {
     display: block;
     font-size: 16px;
     .rss {
-        display: none;
-      }
+      display: none;
+    }
   }
 
   a {
@@ -361,7 +361,7 @@ nav {
   text-decoration: none;
   color: $white;
   cursor: pointer;
-  background-color: $purple;
+  background-color: var(--color-accent);
   border-radius: 3px;
   &:hover,
   &:active {
@@ -393,7 +393,7 @@ nav {
   }
 }
 
-.post-list{
+.post-list {
   margin-left: 10%;
 }
 
@@ -460,7 +460,7 @@ footer {
 .footer_container {
   border-top: 3px solid var(--color-highlight);
   padding: 20px 10px;
-  color: var(--color-tertiary)
+  color: var(--color-tertiary);
 }
 
 .post-nav {
@@ -488,12 +488,12 @@ footer {
   justify-content: center;
   align-items: center;
 
-   @include small-mobile {
-     top: 0;
-     margin-left: 0;
-     .switch {
-       margin: 10px;
-     }
+  @include small-mobile {
+    top: 0;
+    margin-left: 0;
+    .switch {
+      margin: 10px;
+    }
   }
 }
 
@@ -529,7 +529,7 @@ footer {
   right: 0;
   bottom: 0;
   /* background-color: #ccc; */
-  background-color: var(--color-accent-secondary);
+  // background-color: var(--color-accent-secondary);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -545,41 +545,17 @@ footer {
   bottom: 0;
   margin: auto 0;
   -webkit-transition: 0.4s;
-  transition: 0.4s;
-  box-shadow: 0 0px 15px #2020203d;
-  /* background: white url("https://i.ibb.co/FxzBYR9/night.png"); */
-  background: white url("images/night.png");
+  transition: all 0.3s ease 0s;
+  background: transparent url("images/sun.svg");
   background-repeat: no-repeat;
   background-position: center;
-}
-
-input:checked + .slider {
-  background-color: var(--color-accent-secondary);
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px var(--color-accent-secondary);
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(24px);
-  -ms-transform: translateX(24px);
-  transform: translateX(24px);
-  /* background: white url("https://i.ibb.co/7JfqXxB/sunny.png"); */
-  background: white url("images/sunny.png");
+  background: transparent url("images/moon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
-
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
-
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
