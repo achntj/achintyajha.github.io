@@ -71,7 +71,7 @@ p {
 }
 
 a {
-  color: var(--color-text-secondary);
+  color: var(--color-eminent);
   text-decoration: none;
   cursor: pointer;
   padding: 0 3px;
@@ -93,11 +93,7 @@ p a {
 
 // Royal Links
 p > a {
-  color: var(--color-accent);
-}
-
-span > a {
-  color: var(--color-accent);
+  color: var(--color-link);
 }
 
 ul,
@@ -521,19 +517,20 @@ footer {
 
 .container-new {
   position: relative;
-  top: -5px;
+  top: 3px;
   margin-left: 10px;
-  width: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  @include small-mobile {
-    top: 0;
-    margin-left: 0;
-    .switch {
-      margin: 10px;
-    }
+  @include mobile {
+    width: auto;
+  }
+}
+
+@media (max-width: 279px) {
+  .container-new {
+    // display: none;
   }
 }
 
@@ -569,7 +566,7 @@ footer {
   right: 0;
   bottom: 0;
   /* background-color: #ccc; */
-  // background-color: var(--color-accent-secondary);
+  // background-color: var(--color-accent);
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -586,13 +583,13 @@ footer {
   margin: auto 0;
   -webkit-transition: 0.4s;
   transition: all 0.3s ease 0s;
-  background: transparent url("images/sun.svg");
+  background: transparent url("../images/sun.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
 input:checked + .slider:before {
-  background: transparent url("images/moon.svg");
+  background: transparent url("../images/moon.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
