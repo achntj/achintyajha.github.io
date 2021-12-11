@@ -13,6 +13,16 @@
 /* BASE RULES */
 /**************/
 
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
 html {
   font-size: 100%;
 }
@@ -22,8 +32,11 @@ body {
   flex-direction: column;
   min-height: 100vh;
   background: var(--color-bg);
-  font: 18px/1.4 $helvetica;
+  font: 20px/1.4 $helvetica;
   color: var(--color-text);
+  @include mobile {
+    font-size: 18px;
+  }
 }
 
 h1,
@@ -43,6 +56,14 @@ h6 {
   // @include mobile {
   //   line-height: 1.1;
   // }
+
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 
 h1 {
@@ -418,9 +439,16 @@ nav {
 }
 
 .span_header {
-  color: var(--color-text-secondary);
+  color: var(--color-accent);
   font-size: 20px;
   font-weight: 400;
+
+  &:hover,
+  &:active {
+    transition: 0.4s;
+    color: var(--color-eminent);
+    text-decoration: none;
+  }
 }
 
 .entry img {
