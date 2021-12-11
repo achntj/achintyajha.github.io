@@ -167,22 +167,40 @@ img {
   clear: both;
 }
 
+.entry hr {
+  border-color: transparent;
+  border-top: 3px dotted var(--color-highlight);
+  margin-top: 20px;
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
 
 .wrapper-masthead {
   border-top: 3px solid var(--color-accent);
-  margin-bottom: 35px;
-  border-bottom: 2px solid var(--color-highlight);
+  margin-bottom: 20px;
+  // border-bottom: 2px solid var(--color-highlight);
 }
 
 .masthead {
-  padding: 10px 0;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
 
   @include mobile {
     text-align: center;
   }
+}
+
+.wrapper-masthead .container {
+  padding: 0;
+  // max-width: 100%;
+  // Round lower border
+  border-radius: 0 0 10px 10px;
+  // =====
+  background-color: var(--color-nav);
 }
 
 .masthead a {
@@ -209,43 +227,44 @@ img {
 }
 
 .site-info {
-  float: left;
+  display: flex;
+  justify-content: space-between;
 
   @include mobile {
     float: none;
-    display: block;
     margin: 0 auto;
   }
 }
 
 .site-name {
   margin: 0;
-  color: var(--color-text-secondary);
+  color: var(--color-text);
   cursor: pointer;
   font-family: $helvetica;
-  font-size: 28px;
-  letter-spacing: 1px;
-  font-weight: 700;
+  font-size: 1.2em;
+  // letter-spacing: 1px;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased !important;
 }
 
-.site-description {
-  margin: -5px 0 0 0;
-  color: var(--color-tertiary);
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
+.site-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
 }
 
 nav {
-  float: right;
-  margin-top: 13px; // @TODO: Vertically middle align
+  // float: right;
+  // margin-top: 13px; // @TODO: Vertically middle align
   font-family: $helvetica;
   font-size: 18px;
 
+  .rss {
+    color: var(--color-suppresed);
+  }
+
   @include mobile {
-    float: none;
+    float: left;
     margin-top: 9px;
     display: block;
     font-size: 16px;
@@ -255,7 +274,7 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+    margin-right: 20px;
     color: var(--color-text);
     text-align: right;
     font-weight: 600;
@@ -267,7 +286,8 @@ nav {
     }
 
     @include mobile {
-      margin: 0 10px;
+      margin: 0;
+      margin-right: 10px;
     }
   }
 }
@@ -278,7 +298,7 @@ nav {
 
 .container {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 700px;
   padding: 0 15px;
   width: 100%;
   flex-grow: 1;
@@ -452,15 +472,35 @@ blockquote {
 footer {
   font-style: italic;
   margin: 30px auto 0px auto;
-  max-width: 650px;
+  max-width: 700px;
   padding: 0 10px;
   width: 100%;
+}
+
+.special_link {
+  background-color: transparent;
+}
+
+.twitter {
+  color: #1da1f2;
+}
+
+.linkedin {
+  color: #0a66c2;
+}
+
+.github {
+  color: #238636;
+}
+
+.mail {
+  color: #ea4335;
 }
 
 .footer_container {
   border-top: 3px solid var(--color-highlight);
   padding: 20px 10px;
-  color: var(--color-tertiary);
+  color: var(--color-suppresed);
 }
 
 .post-nav {
