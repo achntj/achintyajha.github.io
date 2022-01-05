@@ -17,7 +17,7 @@ till here. For the others, check them out at
 
 **[Auto SNAKE](https://www.youtube.com/watch?v=wyFxc-_l1jQ)** A reinforcement learning model that uses Deep Q-Learning to learn to play 'Snake'. The attached link is a video that shows a demonstration of the learning process.
 
-**[Weather](https://achintyajha.in/weather.github.io)** A simple weather app made using the weather API.
+**[Weather](https://achintyajha.github.io/weather.github.io)** A simple weather app made using the weather API.
 
 <!-- Format
 
