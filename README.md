@@ -1,1 +1,1 @@
-## Redirects to [achintyajha.com](achintyajha.com)
+## Redirects to [achintyajha.com](https://achintyajha.com)
